@@ -1,0 +1,39 @@
+{
+	"id": "auditsecurity",
+	"name": "Audit Sécurité",
+	"pluginVersion": "0.2.0",
+	"description": {
+		"fr_FR": "Contrôlez la sécurité de votre installation Jeedom et obtenez une note de A à F. Plus de 30 points sont vérifiés : comptes et mots de passe par défaut, double authentification, protection contre les attaques par force brute, API, accès externe en HTTPS, fichiers sensibles accessibles depuis le web, en-têtes Apache, SSH, pare-feu, fail2ban, versions du système et de PHP en fin de support, sauvegardes, mises à jour, logs en debug... Chaque point explique le risque et la marche à suivre, et beaucoup se corrigent en un clic depuis le plugin. L'audit peut être relancé automatiquement et sa note utilisée dans vos scénarios.",
+		"en_US": "Check the security of your Jeedom installation and get a grade from A to F. More than 30 points are checked: default accounts and passwords, two-factor authentication, brute-force protection, APIs, HTTPS external access, sensitive files reachable from the web, Apache headers, SSH, firewall, fail2ban, end-of-life system and PHP versions, backups, updates, logs in debug... Each point explains the risk and what to do, and many can be fixed in one click from the plugin. The audit can run automatically and its score can be used in your scenarios.",
+		"de_DE": "Prüfen Sie die Sicherheit Ihrer Jeedom-Installation und erhalten Sie eine Note von A bis F. Über 30 Punkte werden geprüft: Standardkonten und -passwörter, Zwei-Faktor-Authentifizierung, Schutz vor Brute-Force-Angriffen, APIs, externer Zugriff über HTTPS, aus dem Web erreichbare sensible Dateien, Apache-Header, SSH, Firewall, fail2ban, System- und PHP-Versionen ohne Support, Sicherungen, Updates, Logs im Debug-Modus... Jeder Punkt erklärt das Risiko und das Vorgehen, und viele lassen sich mit einem Klick im Plugin korrigieren. Das Audit kann automatisch laufen und seine Bewertung in Ihren Szenarien genutzt werden.",
+		"es_ES": "Compruebe la seguridad de su instalación Jeedom y obtenga una nota de la A a la F. Se verifican más de 30 puntos: cuentas y contraseñas por defecto, autenticación de doble factor, protección contra ataques de fuerza bruta, API, acceso externo en HTTPS, archivos sensibles accesibles desde la web, cabeceras de Apache, SSH, cortafuegos, fail2ban, versiones del sistema y de PHP sin soporte, copias de seguridad, actualizaciones, logs en debug... Cada punto explica el riesgo y qué hacer, y muchos se corrigen con un clic desde el plugin. La auditoría puede ejecutarse automáticamente y su nota puede usarse en sus escenarios.",
+		"it_IT": "Controlla la sicurezza della tua installazione Jeedom e ottieni un voto da A a F. Vengono verificati più di 30 punti: account e password predefiniti, autenticazione a due fattori, protezione dagli attacchi di forza bruta, API, accesso esterno in HTTPS, file sensibili accessibili dal web, intestazioni Apache, SSH, firewall, fail2ban, versioni del sistema e di PHP a fine supporto, backup, aggiornamenti, log in debug... Ogni punto spiega il rischio e cosa fare, e molti si correggono con un clic dal plugin. L'audit può essere eseguito automaticamente e il suo punteggio usato nei tuoi scenari."
+	},
+	"licence": "AGPL",
+	"author": "Ynats",
+	"require": "4.4",
+	"category": "monitoring",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://github.com/Ynats-Dev/jeedom-plugin-auditsecurity/blob/stable/docs/#language#/changelog.md",
+	"documentation": "https://github.com/Ynats-Dev/jeedom-plugin-auditsecurity/blob/stable/docs/#language#/index.md",
+	"link": {
+		"forum": "https://community.jeedom.com/tag/plugin-auditsecurity"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"it_IT",
+		"de_DE"
+	],
+	"compatibility": [
+		"smart",
+		"luna",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy"
+	]
+}
